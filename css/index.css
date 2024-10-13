@@ -1,0 +1,42 @@
+body{
+    background-color: bisque;
+}
+
+.header{
+    display: flex;
+    flex: 1;
+}
+
+.description{
+    display: flex;
+}
+
+img{
+    width: 300px;
+    height: auto;
+}
+
+.catalog1{
+    display: flex;
+}
+
+.catalog2{
+    display: flex;
+}
+
+.catalogItem{
+    width: 100px;
+    height: 100px;
+}
+
+.quote{
+    display: flex;
+}
+
+.adress{
+
+}
+
+.socials{
+    display: flex;
+}
