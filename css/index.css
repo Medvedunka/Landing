@@ -1,9 +1,10 @@
 body{
-    background-color: bisque;
+    margin: 0px;
 }
 
-div{
-    border: solid black 1px;
+a{
+    text-decoration: none;
+    color: white;
 }
 
 .header{
@@ -12,23 +13,37 @@ div{
     justify-content: end;
     gap: 25px;
     padding: 10px;
+    background-color: #423b32;
+    color: aliceblue;
+    border-top: double 8px black;
+    border-right: double 8px black;
+    border-left: double 8px black;
+    border-bottom: solid 1px black;
 }
 
 .description{
     display: flex;
     flex: 1;
     gap: 100px;
+    background-color: #cfb997;
+    border-right: double 8px #423b32;
+    border-left: double 8px #423b32;
+    border-bottom: double 8px #423b32;
+
 }
 
 .descriptionImage{
-    height: 500px;
-    width: auto;
-    padding: 50px 150px 50px;
+    height: auto;
+    width: 700px;
+    align-items: center;
+    padding: 50px;
 }
 
 .descriptionText{
     justify-content: end;
-    padding: 50px 0px 50px;
+    padding: 28px 50px 50px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 img{
@@ -40,39 +55,65 @@ img{
     display: flex;
     justify-content: center;
     gap: 50px;
+    background-color: #c9b89d;
+    border-right: double 8px #423b32;
+    border-left: double 8px #423b32;
 }
 
 .catalog2{
     display: flex;
     justify-content: center;
     gap: 50px;
-    margin-top: 10px;
+    background-color: #c9b89d;
+    border-right: double 8px #423b32;
+    border-left: double 8px #423b32;
 }
 
 .catalogItem{
     width: 250px;
     height: 300px;
+    border: inset 5px #423b32;
+    margin: 20px 0px 40px;
 }
-
-
+    
 .author{
     display: flex;
     justify-content: end;
     margin-right: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quote{
+    margin-top: -20px;
+    padding: 50px;
+    background-color: #cfb997;
+    border: double 8px #423b32;
 }
 
 .quoteText{
     justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
 }
 
 .adress{
     display: flex;
     justify-content: center;
+    background-color: #c9b89d;
+    padding: 20px;
+    border-right: double 8px #423b32;
+    border-left: double 8px #423b32;
 }
 
 .footer{
     display: flex;
-    gap: 1567px;
+    gap: 1557px;
+    background-color: #423b32;
+    border-right: double 8px black;
+    border-left: double 8px black;
+    border-bottom: solid 8px black;
+    color: aliceblue;
+
 }
 
 .footerImg{
@@ -81,10 +122,15 @@ img{
 
 .footerText{
     display:flex;
-    gap: 100px;
+    gap: 80px;
+    padding-left: 10px;
 }
 
 .logo{
     width: 50px;
     height: 50px;
+}
+
+#tg{
+    padding-right: 10px;
 }
